@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark: #111318;
+  --color-card: #1a1d24;
+  --color-accent: #f5b027;
+  --color-accentHover: #d99a22;
+  --color-textMuted: #9ca3af;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-dark);
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
